@@ -15,5 +15,5 @@ for script_name in restore.d/*.sh; do
     fi
 done
 
-xz -d -T 4 rootfs.tar.xz
-sudo tar xfv rootfs.tar -C /
+# xz -d -T 4 rootfs.tar.xz
+# sudo tar xfv rootfs.tar -C /
